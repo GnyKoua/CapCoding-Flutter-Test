@@ -14,3 +14,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## NB :
+L'extension *Json to Dart Model* a été utilisée pour générer le modèle à partir de la réponse de l'API
