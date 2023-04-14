@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 class ContactService extends GetxService {
   final _contactProvider = ContactProvider();
   RxList<Contact> contacts = <Contact>[].obs;
-  // Rx<Contact?> activeContact = null.obs;
+  Rx<Contact?> activeContact = null.obs;
 
   Future<List<Contact>?> getManyContacts(int nbre) async {
     try {

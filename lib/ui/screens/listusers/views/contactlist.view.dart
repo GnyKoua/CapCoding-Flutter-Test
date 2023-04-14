@@ -1,3 +1,4 @@
+import 'package:capcoding/app/routes.dart';
 import 'package:capcoding/features/contact/contact.controller.dart';
 import 'package:capcoding/ui/screens/listusers/widgets/contactitem.widget.dart';
 import 'package:capcoding/ui/widgets/spinner.widget.dart';
@@ -17,8 +18,8 @@ class ContactListView extends GetView<ContactController> {
                 (element) => ContactItemWidget(
                   item: element,
                   onClick: () {
-                    // controller.contactService.activeContact = element.obs;
-                    // Get.toNamed(Routes.detailscontact);
+                    controller.contactService.activeContact = element.obs;
+                    Get.toNamed(Routes.detailscontact);
                   },
                 ),
               )
